@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  <title>Feliz Aniversario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ffdede;
+      margin: 0;
+      padding: 20px;
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      color: #b03a48;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 60px;
+      margin: 20px 0;
+      color: #b03a48;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+      margin: 20px 0;
+      color: #b03a48;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .corazon {
+      display: grid;
+      grid-template-columns: repeat(9, 80px);
+      grid-template-rows: repeat(8, 80px);
+      gap: 5px;
+      justify-content: center;
+      grid-template-areas:
+        ". a1 . . . . . a2 ."
+        "a3 a4 . . . . . a5 a6"
+        "a7 a8 a9 . . . a10 a11 a12"
+        "a13 a14 a15 a16 a17 a18 a19 a20 a21"
+        ". a22 a23 a24 a25 a26 a27 a28 ."
+        ". . a29 a30 a31 a32 a33 . ."
+        ". . . a34 a35 a36 . . ."
+        ". . . . a37 . . . .";
+    }
+
+    .foto {
+      width: 80px;
+      height: 80px;
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .foto:hover {
+      transform: scale(1.05);
+    }
+
+    .foto img, .foto video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .menu {
+            background-color: #ffdede;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu ul li a {
+            background-color: blanchedalmond;
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .menu ul li a:hover {
+            background-color: #f8c291;
+            transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="si.html">inicio</a></li>
+            <li><a href="1er mes.html">1er mes</a></li>
+            <li><a href="2do mes.html">2do mes</a></li>
+            <li><a href="3er mes.html">3er mes</a></li>
+            <li><a href="4to mes.html">4to mes</a></li>
+            <li><a href="5to mes.html">5to mes</a></li>
+            <li><a href="6to mes.html">6to mes</a></li>
+            <li><a href="7mo mes.html">7mo mes</a></li>
+            <li><a href="8vo mes.html">8vo mes</a></li>
+            <li><a href="9no mes.html">9no mes</a></li>
+            <li><a href="10mo mes.html">10mo mes</a></li>
+            <li><a href="11vo mes.html">11vo mes</a></li>
+            <li><a href="1er año.html">1er año</a></li> 
+        </ul>
+    </nav>
+  
+    <h1>Feliz Aniversario</h1>
+
+    <div class="corazon">
+      <div class="foto" style="grid-area: a1;"><img src="fotos/I1.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a2;"><video src="fotos/v1.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a3;"><img src="fotos/I2.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a4;"><video src="fotos/v2.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a5;"><img src="fotos/i3.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a6;"><video src="fotos/v3.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a7;"><img src="fotos/i4.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a8;"><img src="fotos/i5.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a9;"><video src="fotos/v4.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a10;"><img src="fotos/i6.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a11;"><video src="fotos/v5.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a12;"><img src="fotos/i7.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a13;"><video src="fotos/v6.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a14;"><img src="fotos/i8.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a15;"><img src="fotos/i9.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a16;"><video src="fotos/v7.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a17;"><img src="fotos/i10.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a18;"><img src="fotos/i11.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a19;"><img src="fotos/i12.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a20;"><video src="fotos/v8.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a21;"><img src="fotos/i13.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a22;"><img src="fotos/i14.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a23;"><video src="fotos/v9.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a24;"><img src="fotos/i15.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a25;"><img src="fotos/i16.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a26;"><video src="fotos/v10.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a27;"><img src="fotos/i17.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a28;"><img src="fotos/i18.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a29;"><video src="fotos/v11.mp4" autoplay muted loop></video></div>
+      <div class="foto" style="grid-area: a30;"><img src="fotos/i19.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a31;"><img src="fotos/i20.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a32;"><img src="fotos/i21.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a33;"><img src="fotos/i22.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a34;"><img src="fotos/i23.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a35;"><img src="fotos/i24.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a36;"><img src="fotos/i25.jpg" alt=""></div>
+      <div class="foto" style="grid-area: a37;"><video src="fotos/v12.mp4" autoplay muted loop></video></div>
+    </div>
+  
+    <h2>17/04/2024</h2>
+
+
+</body>
+</html>
