@@ -86,11 +86,17 @@
     .texto-centro h2{
         text-align: center;
     }
+        img, video {
+  pointer-events: none;
+  user-select: none;
+}
     </style>
     
 </head>
 <body>
-
+<script>
+  document.addEventListener("contextmenu", event => event.preventDefault());
+</script>
     <nav class="menu">
         <ul>
             <li><a href="1er mes.html">1er mes</a></li>
